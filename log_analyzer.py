@@ -4,7 +4,7 @@ import logging
 import numpy as np
 from datetime import datetime, timedelta
 from collections import Counter, defaultdict
-from app import db
+from extensions import db
 from models import Log, Threat, Alert
 from ml_models.anomaly_detector import AnomalyDetector
 
